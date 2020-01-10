@@ -2,20 +2,21 @@
  * @Author: renlei
  * @Date: 2020-01-09 16:29:43
  * @LastEditors  : renlei
- * @LastEditTime : 2020-01-09 17:19:50
+ * @LastEditTime : 2020-01-10 12:49:59
  * @Description:
  -->
 <template>
   <div>
     <h2>开发测试</h2>
-    <hupload :options="options" v-on:receiveUploadMsg="receiveUploadMsg">
+    <hupload :options="options"
+             v-on:receiveUploadMsg="receiveUploadMsg">
     </hupload>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-import hupload from "../../dist/vueAjaxUpload.js";
+import hupload from "vue-upload-picture";
 Vue.use(hupload);
 export default {
   data() {

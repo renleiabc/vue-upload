@@ -1,5 +1,5 @@
 {
-  "name": "vue-upload-picture",
+  "name": "vue-upload-picture1",
   "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "renleiabc <421796896@qq.com>",
@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-upload-picture": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
